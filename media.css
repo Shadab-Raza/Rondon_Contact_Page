@@ -447,3 +447,256 @@
         height: 90%;
     }
 }
+
+
+/* FQA Section  */
+@media (max-width : 480px) {
+    .FQA_Section{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 150vh;
+        align-items: flex-start;
+    }
+    
+    .FQA_Section .fqaContent_wrapper{
+        /* border: 1px solid black; */
+        width: 90%;
+        height: 95vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 50px 0px;
+        gap: 20px;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .fqa_title{
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 19px;
+        color: #F69F3C;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .fqa_headings h3{
+        width: 90%;
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .subtraction{
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .subtraction h5{
+        font-family: 'Taviraj';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .subtraction img{
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .para p{
+        /* border: 1px solid black; */
+        width: 100%;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #706464;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .addition{
+        /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .addition h5{
+        font-family: 'Taviraj';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #000000;
+    }
+    
+    .FQA_Section .fqaContent_wrapper .left_content .addition img{
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+    
+    
+    .FQA_Section .fqaContact_form{
+        /* border: 1px solid black;  */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start !important;
+        gap: 40px;
+        padding: 10px 0px 0px 0px; 
+    }
+    
+    .FQA_Section .fqaContact_form h3{
+        width: 80%;
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 34px;
+        color: #000000;
+        transform: translateX(0%);
+    }
+    
+    .FQA_Section .fqaContact_form .details{
+        /* border: 1px solid black;    */
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 40px;
+        transform: translateX(0%);
+    }
+    
+    .FQA_Section .fqaContact_form .submit_btn{
+        margin-left: 110px;
+    }
+    
+    .FQA_Section .fqaContact_form .details .input_details{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .FQA_Section .fqaContact_form .details .input_details label{
+        /* border: 1px solid black;  */
+        width: 100%;
+        font-family: 'Josefin Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #272727;
+    }
+    
+    .FQA_Section .fqaContact_form .details .input_details label span{
+        font-size: 18px;
+        margin-left: 3px;
+        font-weight: 500;
+    }
+    
+    .FQA_Section .fqaContact_form .details .input_details input{
+        border: none;
+        border-bottom: 2px solid #272727;
+        outline: none;
+        background: transparent;
+    }
+    
+    .FQA_Section .fqaContact_form .details textarea{
+        width: 100% !important;
+        resize: none;
+        outline: none;
+        border: 2px solid #272727;
+        background: transparent;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .FQA_Section .fqaContact_form .submit_btn{
+        width: 35%;
+        height: 8%;
+        border: 3px solid #F69F3C;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.4s linear;
+    }
+    
+    .FQA_Section .fqaContact_form .submit_btn input{
+        width: 100%;
+        height: 50px;
+    }
+}
+
+
+/* footer  Section*/
+@media (max-width: 480px){
+    footer{
+        /* border: 1px solid black;  */
+        width: 100%;
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+    }
+    
+    footer .copyright{
+        /* border: 1px solid black;  */
+        width: 50%;
+        font-size: 20px;
+        text-align: center;
+        transform: translateY(100px);
+    }
+    
+    footer .footer_logo{
+        /* border: 1px solid black;  */
+        width: 30%;
+        height: 60%;
+        transform: translateY(-30px);
+    }
+
+    footer .footer_logo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    footer .privacy{
+        /* border: 1px solid black; */
+        width: 80%;
+        font-size: 18px;
+        text-align: center;
+        transform: translateY(-10px);
+    }
+}
+
+@media (max-height : 635px) {
+    footer{
+        /* border: 1px solid black;  */
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 8px;
+    }
+}
