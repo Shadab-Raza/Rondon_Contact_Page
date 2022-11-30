@@ -191,6 +191,7 @@
 }
 
 
+
 /* Hero Section */
 @media (max-width : 480px) {
     .hero_container{
@@ -384,6 +385,20 @@
     }
 }
 
+@media (max-height : 620px){
+    .hero_container{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 210vh;
+        background: #F5F5F5;
+    }
+
+    .content_wrapper{
+        /* border: 1px solid black; */
+        height: 155vh;
+    }
+}
+
 
 /* Visit our place Section */
 @media (max-width : 480px) {
@@ -446,6 +461,18 @@
         /* border: 1px solid black; */
         width: 80%;
         height: 90%;
+    }
+}
+
+@media (max-height : 620px) {
+    .visitingTiming_container{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 130vh;
+        background: #FDECD8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -645,6 +672,15 @@
     .FQA_Section .fqaContact_form .submit_btn input{
         width: 100%;
         height: 50px;
+    }
+}
+
+@media (max-height : 620px) {
+    .FQA_Section{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 190vh;
+        align-items: flex-start;
     }
 }
 
