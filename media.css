@@ -382,3 +382,68 @@
         color: #272727;
     }
 }
+
+
+/* Visit our place Section */
+@media (max-width : 480px) {
+    .visitingTiming_container{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 110vh;
+        background: #FDECD8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .visitingTiming_container .visiting_content{
+        /* border: 1px solid black; */
+        width: 85%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .visitingTiming_container .visiting_content .left_content{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    
+    .visitingTiming_container .visiting_content .left_content .heading h2{
+        font-family: 'Taviraj';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 58px;
+        color: #000000;
+    }
+    
+    .visitingTiming_container .visiting_content .left_content .visiting_btn{
+        border: 3px solid #319ED8;
+        width: 30%;
+        height: 45px;
+    }
+    
+    .visitingTiming_container .visiting_content .left_content .visiting_btn p{
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .visitingTiming_container .visiting_content .right_content{
+        /* border: 1px solid black; */
+        width: 100%;
+        height: 100%;  
+    }
+    
+    .visitingTiming_container .visiting_content .right_content .card{
+        /* border: 1px solid black; */
+        width: 80%;
+        height: 90%;
+    }
+}
